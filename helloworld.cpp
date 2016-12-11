@@ -1,5 +1,6 @@
 #include <iostream>
 #include "string"
+#include <map>
 using namespace std;
 
 void find(string tempStr, string & English)
@@ -82,6 +83,19 @@ void find(string tempStr, string & English)
     else if (tempStr == "--.."){
         English += 'Z';
     }
+}
+
+// New version of find, using stl map
+// http://www.cplusplus.com/reference/map/map/map/
+void find_stl(string findMe, string& strResult) {
+    // Create the map...
+    // TODO: the map should only be created once...
+    map<string, string> mapMorseCode;
+    mapMorseCode[".-"] = 'A';
+    // ...
+
+    // Use the map...
+    strResult += mapMorseCode[findMe];
 }
 
 void cipher(string Morse)
