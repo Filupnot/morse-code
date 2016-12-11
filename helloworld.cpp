@@ -122,5 +122,5 @@ void main()
     cipher(Morse);
 
     getline (cin, dontStop);
-    //hi
+    //hi bye
 }
