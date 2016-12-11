@@ -107,13 +107,13 @@ void cipher(string Morse)
 }
 
 void input(string & Morse)
-{   
+{
     // Get phrase from user
     cout << "Enter Morse phrase:  ";
     getline (cin, Morse);
 }
 
-void main()
+int main()
 {
     string Morse = "";
     string dontStop = "";
