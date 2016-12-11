@@ -231,5 +231,4 @@ int main()
     cipher(Morse);
 
     getline (cin, dontStop);
-    //hi bye
 }
