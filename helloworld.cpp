@@ -191,6 +191,7 @@ void find_stl(string findMe, string& strResult) {
 
     // Use the map...
     strResult += mapMorse2Char[findMe];
+    
 }
 
 void cipher(string Morse)
