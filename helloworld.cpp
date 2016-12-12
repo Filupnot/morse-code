@@ -3,7 +3,7 @@
 #include <map>
 using namespace std;
 
-void find(string tempStr, string & English)
+/*void find(string tempStr, string & English)
 {
     if (tempStr == ".-"){
         English += 'A';
@@ -83,7 +83,7 @@ void find(string tempStr, string & English)
     else if (tempStr == "--.."){
         English += 'Z';
     }
-}
+} */
 
 // New version of find, using stl map
 // http://www.cplusplus.com/reference/map/map/map/
